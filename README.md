@@ -1,8 +1,7 @@
 # BondVillains
 
 
-![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-20at19.28.34x.png)
-![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-20at19.28.47x.png)
+![Scheme](/screenshots/SimulatorScreenShot-iPhone8Plus-2017-11-21at16.36.11.png)
 
 
 BondVillains is an iOS sample application that shows a master details table with James Bond villains.
