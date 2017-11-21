@@ -53,8 +53,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        return true
+    //func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+    //    return true
+    //}
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // Get the storyboard and ResultViewController
+        let detailsVC = self.storyboard!.instantiateViewController(withIdentifier: "VillainDetailViewController") as! VillainDetailViewController
+        
+        // Communicate the villain
+        detailsVC.villain = self.allVillains[(indexPath as NSIndexPath).row]
+        self.navigationController?.pushViewController(detailsVC, animated: true)
     }
 
 }

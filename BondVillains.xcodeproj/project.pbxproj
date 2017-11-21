@@ -13,6 +13,7 @@
 		82BACB391FC4D1670004CFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB381FC4D1670004CFDA /* Assets.xcassets */; };
 		82BACB3C1FC4D1670004CFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB3A1FC4D1670004CFDA /* LaunchScreen.storyboard */; };
 		82BACB441FC4D2800004CFDA /* Villain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB431FC4D2800004CFDA /* Villain.swift */; };
+		82BACB461FC4D6940004CFDA /* VillainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB451FC4D6940004CFDA /* VillainDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		82BACB3B1FC4D1670004CFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82BACB3D1FC4D1670004CFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82BACB431FC4D2800004CFDA /* Villain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villain.swift; sourceTree = "<group>"; };
+		82BACB451FC4D6940004CFDA /* VillainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				82BACB311FC4D1670004CFDA /* AppDelegate.swift */,
 				82BACB331FC4D1670004CFDA /* ViewController.swift */,
+				82BACB451FC4D6940004CFDA /* VillainDetailViewController.swift */,
 				82BACB351FC4D1670004CFDA /* Main.storyboard */,
 				82BACB431FC4D2800004CFDA /* Villain.swift */,
 				82BACB381FC4D1670004CFDA /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				82BACB341FC4D1670004CFDA /* ViewController.swift in Sources */,
 				82BACB321FC4D1670004CFDA /* AppDelegate.swift in Sources */,
 				82BACB441FC4D2800004CFDA /* Villain.swift in Sources */,
+				82BACB461FC4D6940004CFDA /* VillainDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
