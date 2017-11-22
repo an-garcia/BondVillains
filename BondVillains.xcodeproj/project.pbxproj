@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8225071E1FC6312A00B094C0 /* VillainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8225071D1FC6312A00B094C0 /* VillainCollectionViewController.swift */; };
+		822507201FC631E200B094C0 /* VillainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8225071F1FC631E200B094C0 /* VillainCollectionViewCell.swift */; };
 		82BACB321FC4D1670004CFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB311FC4D1670004CFDA /* AppDelegate.swift */; };
 		82BACB341FC4D1670004CFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BACB331FC4D1670004CFDA /* ViewController.swift */; };
 		82BACB371FC4D1670004CFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BACB351FC4D1670004CFDA /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8225071D1FC6312A00B094C0 /* VillainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainCollectionViewController.swift; sourceTree = "<group>"; };
+		8225071F1FC631E200B094C0 /* VillainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainCollectionViewCell.swift; sourceTree = "<group>"; };
 		82BACB2E1FC4D1660004CFDA /* BondVillains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BondVillains.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BACB311FC4D1670004CFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82BACB331FC4D1670004CFDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			children = (
 				82BACB311FC4D1670004CFDA /* AppDelegate.swift */,
 				82BACB331FC4D1670004CFDA /* ViewController.swift */,
+				8225071D1FC6312A00B094C0 /* VillainCollectionViewController.swift */,
+				8225071F1FC631E200B094C0 /* VillainCollectionViewCell.swift */,
 				82BACB451FC4D6940004CFDA /* VillainDetailViewController.swift */,
 				82BACB351FC4D1670004CFDA /* Main.storyboard */,
 				82BACB431FC4D2800004CFDA /* Villain.swift */,
@@ -144,8 +150,10 @@
 			files = (
 				82BACB341FC4D1670004CFDA /* ViewController.swift in Sources */,
 				82BACB321FC4D1670004CFDA /* AppDelegate.swift in Sources */,
+				822507201FC631E200B094C0 /* VillainCollectionViewCell.swift in Sources */,
 				82BACB441FC4D2800004CFDA /* Villain.swift in Sources */,
 				82BACB461FC4D6940004CFDA /* VillainDetailViewController.swift in Sources */,
+				8225071E1FC6312A00B094C0 /* VillainCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
